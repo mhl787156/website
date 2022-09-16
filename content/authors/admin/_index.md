@@ -1,5 +1,5 @@
 ---
-title: MickeyLi
+title: Mickey Li
 role: PhD Researcher in Aerial Robotics
 avatar_filename: picture.jpg
 bio: My research interests include distributed robotics, mobile computing and
