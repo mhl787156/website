@@ -1,7 +1,7 @@
 ---
 title: Mickey Li
 role: PhD Researcher in Aerial Robotics
-avatar_filename: picture.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
