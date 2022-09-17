@@ -16,30 +16,42 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: 90%
-    icon: r-project
+# Uncomment to use custom SVG icons.
+# Reference the SVG icon name (without `.svg` extension) in the `icon` field.
+# For example, reference `assets/media/icons/xyz.svg` as `icon: 'xyz'`
+  - icon: python
     icon_pack: fab
-    name: R
-  - description: 100%
-    icon: chart-line
+    name: Python
+  - icon: "cplusplus-original"
+    icon_pack: "custom"
+    name: "CPP"
+  - icon: "c-original"
+    icon_pack: "custom"
+    name: "C"
+  - icon: rust
+    icon_pack: fab
+    name: Rust
+  - icon: layer-group
     icon_pack: fas
-    name: Statistics
-  - description: 10%
-    icon: camera-retro
-    icon_pack: fas
-    name: Photography
+    name: HTML/CSS/JS
+  - icon: "ros"
+    icon_pack: "custom"
+    name: ROS1 & ROS2
+  - icon: "PX4"
+    icon_pack: "custom"
+    name: PX4 Autopilot
+  - icon: docker
+    icon_pack: fab
+    name: Docker
+  - icon: "kubernetes-plain"
+    icon_pack: custom
+    name: Kubernetes
+
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
 #  name: "Emojiness"
 #  description: "100%"
 
-# Uncomment to use custom SVG icons.
-# Place your custom SVG icon in `assets/media/icons/`.
-# Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-# For example, reference `assets/media/icons/xyz.svg` as `icon: 'xyz'`
-#- icon: "your-custom-icon-name"
-#  icon_pack: "custom"
-#  name: "Surfing"
-#  description: "90%"
+
 ---
