@@ -1,9 +1,8 @@
 ---
 title: Mickey Li
-role: PhD Researcher in Aerial Robotics
+role: PhD Researcher in Aerial Robotics and Multi-Robot Systems
 avatar_filename: avatar.jpg
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: My research interests include multi-robot systems, autonomous aerial robotics and solving infrastructure challenges for robotics deployments. 
 interests:
   - UAVs
   - Multi-Robot Systems
@@ -32,19 +31,16 @@ organizations:
     url: https://www.uwe.ac.uk/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: FARSCOPE PhD in Robotics and Autonomous Systems
+      institution: Bristol Robotics Laboratory, University of Bristol, University of the West of England, UK
+      year: 2023
+    - course: MEng Joint Mathematics and Computer Science
+      institution: Imperial College, London, UK
+      year: 2018
 email: ""
 superuser: true
 highlight_name: true
 ---
-Mickey is a Robotics and Autonomous systems PhD researcher at the Bristol Robotics Laboratory (BRL) and the University of Bristol. After graduating from Joint Mathematics and Computer Science at Imperial College London, he joined the FARSCOPE CDT program supervised by Professor Arthur Richards and sponsored by the Toshiba Bristol Research and Innovation Laboratory. His research focuses on optimal multi-UAV path planning for building inspection, in particular how guarantees can be provided despite vehicle failures. Most recently he has been developing a portable development and deployment infrastructure for multi-UAV experimentation for the BRL Flight Arena inspired by advances in cloud computing
+Mickey is a Robotics and Autonomous systems PhD researcher at the Bristol Robotics Laboratory (BRL) and the University of Bristol. After graduating with a first from Joint Mathematics and Computer Science at Imperial College London, he joined the FARSCOPE CDT program supervised by Professor Arthur Richards and sponsored by the Toshiba Bristol Research and Innovation Laboratory. His research focuses on optimal multi-UAV path planning for building inspection, in particular how guarantees can be provided despite vehicle failures. Most recently he has been developing a portable development and deployment infrastructure for multi-UAV experimentation for the BRL Flight Arena inspired by advances in cloud computing
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "https://cloud.mickeyhl.li/index.php/s/zdk38XyeT77PS87" "newtab" >}}resumé{{< /staticref >}}.
