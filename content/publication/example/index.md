@@ -1,4 +1,5 @@
 ---
+draft: true
 abstract: Multi-Agent Systems have the potential advantage of graceful
   degradation over Single-Agent systems. This is a desirable trait in
   applications that require area coverage with failure-prone UAVs. This paper
@@ -36,7 +37,7 @@ tags:
   - Unmanned Aerial Vehicles
   - Linear Programming
 projects:
-  - example
+  - my-paper
 image:
   caption: "Two drones covering this circular path and Agent 1 fails. Which
     Strategy should Agent 2 have taken? "
