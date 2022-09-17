@@ -17,6 +17,7 @@ date: '2018-07-01'
 lastmod: 2022-09-17T11:19:53+01:00
 featured: false
 draft: false
+url_pdf: https://arxiv.org/pdf/1807.10561.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -48,8 +49,8 @@ abstract: Incorporating the physical environment is essential for a complete und
   accuracy. We validate our concept by producing a semantic map from images of the
   NYUv2 dataset while simultaneously estimating gaze position and gaze classes from
   recorded gaze data of the dataset images.
-publication: ''
+publication: '*European Conference on Computer Vision 2018 Workshop on Egocentric Perception and Computing*'
 links:
 - name: URL
-  url: http://arxiv.org/abs/1807.10561
+  url: https://www.eyewear-computing.org/EPIC_ECCV18/program.html
 ---

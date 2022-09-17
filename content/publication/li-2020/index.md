@@ -12,7 +12,7 @@ tags: []
 categories: []
 date: '2020-05-01'
 lastmod: 2022-09-17T11:19:54+01:00
-featured: true
+featured: false
 draft: false
 
 # Featured image
@@ -45,4 +45,5 @@ doi: 10.31256/Cy5Ej9K
 links:
 - name: URL
   url: https://www.ukras.org/publications/ras-proceedings/UKRAS20/pp15-17
+url_pdf: https://www.ukras.org/publications/ras-proceedings/UKRAS20/pp15-17
 ---

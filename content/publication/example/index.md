@@ -31,7 +31,7 @@ url_video: ""
 title: Reliability-Aware Multi-UAV Coverage Path Planning Using Integer Linear
   Programming
 doi: https://doi.org/10.31256/Cy5Ej9K
-featured: true
+featured: false
 tags:
   - Multiagent Systems
   - Unmanned Aerial Vehicles

@@ -15,7 +15,7 @@ tags:
 categories: []
 date: '2021-01-01'
 lastmod: 2022-09-17T11:19:54+01:00
-featured: false
+featured: true
 draft: false
 
 # Featured image
@@ -35,10 +35,10 @@ projects: []
 publishDate: '2022-09-17T10:24:20.580712Z'
 publication_types:
 - '1'
-abstract: ''
+abstract: 'Graceful degradation is a potential advantage of Multi-Robot Systems over Single-Robot Systems. In aerial robotics applications, such as infrastructure inspection, this trait is desirable as it would improve mission reliability despite the use of failure-prone low-cost drones. The Reliability-Aware Multi-Agent Coverage Path Planning (RA-MCPP) problem finds path plans for each robot to maximise the probability of mission completion by a given deadline. This paper proposes a path planner for RA-MCPP formulated in continuous time, enabling more complex realistic environments to be considered. The proposed method (i) extends a reliability evaluation framework to evaluate the Probability of Completion metric on asynchronous strategies on non-unit lattice graph environments, and (ii) introduces a greedy-genetic meta-heuristic optimisation method as a scalable and accurate RA-MCPP solver. This method is shown to provide plans with higher reliability when compared with existing approaches in three real inspection scenarios.'
 publication: '*IEEE International Conference on Robotics and Automation (ICRA)*'
-doi: 10.1177/1729881416663664
+doi: 10.1109/ICRA48506.2021.9560770
 links:
 - name: URL
-  url: https://doi.org/10.1145/3319619.3321993
+  url: https://ieeexplore.ieee.org/abstract/document/9560770/
 ---

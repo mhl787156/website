@@ -52,5 +52,8 @@ abstract: Structural Inspection is a key part of the maintenance and upkeep life
   planner using C++, OpenGL, PCL and Octomap libraries, upon which we applied some
   of the methods we discuss with the aim of observing the eﬀect of true spatial location
   on these coverage methods, as well as provide a foundation for future implementations.
-publication: ''
+publication: '*Bristol Robotics Laboratory, University of Bristol, Bristol, UK*'
+url_pdf: https://cloud.mickeyhl.li/index.php/s/etcyfKmKNAq595z
 ---
+
+*Masters of Research Thesis*
