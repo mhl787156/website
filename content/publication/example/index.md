@@ -40,7 +40,7 @@ projects:
 image:
   caption: "Two drones covering this circular path and Agent 1 fails. Which
     Strategy should Agent 2 have taken? "
-  focal_point: Center
+  focal_point: ""
   preview_only: false
   filename: featured.jpg
 date: 2020-05-01T12:00:00.000Z
