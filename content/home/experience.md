@@ -38,9 +38,7 @@ experience:
       * Designed and developed software infrastructure for multi-drone flight known as [*Starling*](project/starling) using ROS2, PX4, Docker and Kubernetes.
       * Investigating Online Reliabity-Aware Coverage Path Planning and its feasibility.
 
-      Supervised by Professor Arthur Richards (Bristol) and Professor Mahesh Sooriyabandara (Tohisba). Funded by ESPRC [FASRCOPE Center for Doctoral Training](https://fasrcope.bris.ac.uk) in robotics and autonomous systems.
-
-
+      Supervised by Professor Arthur Richards (Bristol) and Professor Mahesh Sooriyabandara (Tohisba). Funded by ESPRC [FASRCOPE Center for Doctoral Training](https://www.farscope.bris.ac.uk) in robotics and autonomous systems.
   - title: Teaching Associate
     company: University of Bristol
     company_url: 'https://www.bristol.ac.uk/'
@@ -67,6 +65,21 @@ experience:
         * Re-implemnted from MATLAB to RUST for greater performance on a Raspberry Pi.
         * Integrated the motion planner into a deployable container for the Starling system in the BRL Flight Arena.
         * Performed simulated and real testing of the motion planner on real UAVs. 
+  - title: Lead Project Manager and Developer for Outreach Project 
+    company: University of Bristol
+    company_url: 'https://www.bristol.ac.uk/'
+    company_logo: uob
+    location: Bristol, UK
+    date_start: '2021-04-21'
+    date_end: '2021-06-18'
+    description: |2-
+        Developed and publically released an educational game submission for the UK-RAS 2020 Robotics Week. 
+        I lead a team of 7 volunteer postgraduate students through the planning and development of the **RoC-Ex: Robotics Cave Explorer** game. The game is designed to teach children and teenagers how a robot senses the world and its environment through the exploration of a cave. 
+        
+        As the voluntary project manager, I suggested and pushed for methods to ensure that we would complete in time. This included organising 2 weekend "hackathon sessions" in which we all sat together to develop the game. As a developer, my responsibility was to integrate the models and missions into the Godot game engine, and to setup deployment and delivery of the game. 
+        
+        The game was successfully released to the general public with currently over 600 hits. [RoC-Ex is still available online here.](https://www.farscope.bris.ac.uk/game) and more details are available in [the RoC-Ex project post](project/rocex)
+
   - title: PhD Research Intern
     company: Toshiba Europe Ltd, Toshiba Bristol Research and Innovation Laboratory (BRIL)
     company_url: 'https://www.toshiba.eu/pages/eu/Bristol-Research-and-Innovation-Laboratory/'
