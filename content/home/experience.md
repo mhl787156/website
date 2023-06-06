@@ -73,12 +73,12 @@ experience:
     date_start: '2021-04-21'
     date_end: '2021-06-18'
     description: |2-
-        Developed and publically released an educational game submission for the UK-RAS 2020 Robotics Week. 
+        Developed and publically released an educational game submission for the UK-RAS 2021 Robotics Week. 
         I lead a team of 7 volunteer postgraduate students through the planning and development of the **RoC-Ex: Robotics Cave Explorer** game. The game is designed to teach children and teenagers how a robot senses the world and its environment through the exploration of a cave. 
         
         As the voluntary project manager, I suggested and pushed for methods to ensure that we would complete in time. This included organising 2 weekend "hackathon sessions" in which we all sat together to develop the game. As a developer, my responsibility was to integrate the models and missions into the Godot game engine, and to setup deployment and delivery of the game. 
         
-        The game was successfully released to the general public with currently over 600 hits. [RoC-Ex is still available online here.](https://www.farscope.bris.ac.uk/game) and more details are available in [the RoC-Ex project post](project/rocex)
+        The game was successfully released to the general public with currently over 600 hits. [RoC-Ex is still available online here.](https://farscope-outreach.co.uk/) and more details are available in [the RoC-Ex project post](project/rocex)
 
   - title: PhD Research Intern
     company: Toshiba Europe Ltd, Toshiba Bristol Research and Innovation Laboratory (BRIL)
