@@ -43,4 +43,6 @@ highlight_name: true
 ---
 Mickey is a Robotics and Autonomous systems PhD researcher at the Bristol Robotics Laboratory (BRL) and the University of Bristol. After graduating with a first from Joint Mathematics and Computer Science at Imperial College London, he joined the FARSCOPE CDT program supervised by Professor Arthur Richards and sponsored by the Toshiba Bristol Research and Innovation Laboratory. His research focuses on optimal multi-UAV path planning for building inspection, in particular how guarantees can be provided despite vehicle failures. Most recently he has been developing a portable development and deployment infrastructure for multi-UAV experimentation for the BRL Flight Arena inspired by advances in cloud computing
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/academic_resume.pdf" "newtab" >}}academic CV{{< /staticref >}}.
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/industrial_resume.pdf" "newtab" >}}industry CV{{< /staticref >}}.
