@@ -27,10 +27,16 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
+    - name: Software
+      tag: Software
+    - name: Robotics
+      tag: Robotics
+    - name: Drones
+      tag: Drones
     - name: Other
       tag: Demo
+    - name: Music
+      tag: Music
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
