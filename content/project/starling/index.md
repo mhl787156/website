@@ -2,11 +2,13 @@
 title: Starling
 summary: An example of using the in-built project page.
 tags:
-  - Deep Learning
+  - Robotics
+  - Drones
+  - Software
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://www.github.com/StarlingUAS'
 
 image:
   caption: Photo by rawpixel on Unsplash
@@ -27,7 +29,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: starling_introduction
 draft: false
 ---
 
