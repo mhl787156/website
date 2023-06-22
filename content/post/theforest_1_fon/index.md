@@ -1,6 +1,6 @@
 ---
-title: Festival of Nature
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+title: The Forest at the Bristol Festival of Nature 2023
+subtitle: An interactive audio-visual experiment - we invite you to explore the sounds of nature vs. urban environments and create as a collective a soundscape harmonizing the two, often, opposing forces. The story of its initial conception, design, development, implementation and installation for the public.
 
 # Summary for listings and search engines
 summary: The forest for the festival of nature in bristol.
@@ -9,10 +9,10 @@ summary: The forest for the festival of nature in bristol.
 projects: [theforest]
 
 # Date published
-date: '2020-12-13T00:00:00Z'
+date: '2023-06-22T00:00:00Z'
 
 # Date updated
-lastmod: '2020-12-13T00:00:00Z'
+lastmod: '2023-06-22T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: true
@@ -29,77 +29,48 @@ image:
   preview_only: false
 
 authors:
-  - admin
-  - 吳恩達
+  - Mickey Li
+  - Suet Lee
 
 tags:
-  - Academic
-  - 开源
+  - Outreach
 
 categories:
-  - Demo
-  - 教程
+  - Outreach
 ---
 
-## Overview
+## Introduction
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+In this project we have two "pillars", one representing natural environments and the other representing urban environments/human activity. The aim is to create consensus art - the audio-visual results of social interaction between participants.
 
-[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png)](https://wowchemy.com)
+Sounds are generated from items that participants place on the pillars themselves. This will be a learning experience for participants showing how interconnected human activities are with the natural environment. The overlap between the two will show the harmony that can be achieved between the two seemingly different forces but also the chances of generating a cacophony if there is no equilibrium.
 
-## Get Started
+This is an art piece that provides the opportunity for people of all ages to understand the importance of interactions with our natural environment. We hope that this will also inspire children to follow STEM subjects showing that engineering principles can also be used to generate educational art and to provide solutions to climate collapse.
 
-- 👉 [**Create a new site**](https://wowchemy.com/templates/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
+This article goes into some of the designs, challenges and experiences we had throughout the process, sharing photos along the way!
 
-## Crowd-funded open-source software
+{{< gallery album="posts/the_forest_fon_2023/gen_pics" >}}
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+## Before The Forest
 
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/sponsor/)
+The concept began a while back when Tom Didiot-Cook presented his work on the Tonnetz music-interaction device in one of the Swarm lunches. The interaction device designated note groups on a hexagonal grid in which the performer would press buttons and it would create some harmonious sound. This peaked my interest as I'd always wanted to try my hand at making some musical device, and the hexagonal patterning of notes was fascinating.
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/sponsor/) awesome rewards and extra features 🦄✨**
+Then In 2022 when visiting the ICRA 2022 conference in Japan, I had the opportunity of visiting the TeamLabs Planets exhibition in Tokyo - and it was amazing, I really could not recommend it enough. The Teamlabs is an interactive art exhibit with numerous all-sensory installations. This include an ankle deep pool with projections of roaming fish with swelling music, a room of hundreds of synchronised dangling LEDs, a room with a giant ceiling projection and rousing music to loose yourself into and many more. This entire experience ignited my interest in developing an audio-visual installation inspired by what we had seen.
 
-## Ecosystem
+An opportunity to try and develop a concept came with the Computer Science Societies Art Hackathon where I convinced Suet to work with me to build upon the Tonnetz concept into something human scale and bigger! In this concept, the floor of a large dome would be comprised of hexagonal pressure pads, building up the tonnetz structure. The pressure pads represent a choice of note, and the interaction of multiple participants could create chords which would be broadcast through the space. We wanted to include a visual element complementing the sonic element by analysing the emergent notes and chords, and projecting a colour-scape onto the dome above.
 
-- **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
+{{< gallery album="posts/the_forest_fon_2023/tonnetz" >}}
 
-## Inspiration
+We bit off a little more than we could chew with this particular project - we only had a weekend afterall! We achieved a brief prototype via website and some of the animation, but it didnt' really pan out. I think in this experience we learnt to perhaps temper our expectations a tad! However despite this setback, I think we both enjoyed the experience and wanted to try again with a better plan in mind.
 
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/user-stories/) of personal, project, and business sites.
+## Designing The Forest
 
-## Features
+In early April 2023, after the hackathon, Suet and I approached Tom and somehow easily managed to convince him to join our project - building an audiovisual interactive art exhibit. Starting from the hackathon idea, we quickly started brainstorming alternative approaches which might actually be constructable. Ranging from walls with tonnetz on them, placing pre created "chord" blocks, to random moving hexagon tiles, some sort of growth mechanic and others - each including some element of interaction, sound/music generation and emergence.
 
-- **Page builder** - Create _anything_ with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/content/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://wowchemy.com/docs/content/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 34+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+{{< gallery album="posts/the_forest_fon_2023/initial_idea_sketches" >}}
 
-## Themes
+After going round and round a bit, we returned to the dome idea and developed the hexagonal floor into a set of pillars - with users interacting with tall poles instead of simply standing. Each pillar could have its own speakers and interaction mechanisms - buttons, dynamo cranks and the like. The pillars could then interact with some voting system or whatnot (we never got this far but these are ideas to bring forward anyhow!).
 
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
+It was also at this time that we started to reach out and look for potential opportunities to develop this installation for. An audience and target event would help guide the design, looks and usage of the system significantly. Tom and Suet had links to Mireia Bes-Garcia who organises the yearly [Bristol Festival of Nature](https://www.bnhc.org.uk/festival-of-nature/) outreach event. We were a tad skeptical going into the initial meeting, but after presenting our concept, she ended up convincing us that our installation could actually work within this event! It was also at this point that we brought Georgios Tzoumas onto the team as he had also wanted to bring something to this festival - I swear this man knows everyone!
 
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md) license.
+Towards the end of April, with all this in mind, we finally settled on an initial concept of pillars in which you could attach patches onto, where each patch triggered a sound to be played locally by that pillar. We also agreed that two pillars was probably the most we could put together (though we wouldn't agree on the look and final design of the pillar until much later on!).
