@@ -129,7 +129,9 @@ There are two types of RFID tag, ones which can be programmed to store data - su
 
 We wanted individually controllable addressable LEDs to adorn each pillar, with options for generating fun effects. For example when a participant places an object onto the pillar, the LEDs would immediately animate, highlighting that action. In the end we bought 20m of offbrand neopixels off of Amazon. Going from my work with drones, I was hoping that the LEDs could be controlled directly from the Raspberry Pi. After some initial testing, it looked promising even though it was hard to find ready prepared libraries with a large number of effects. However during integration with the RFID we found a huge problem that the two systems would break each other. The LEDs would function properly until an RFID was activated, at which point the RFID would stop functioning. We still do not know the full reasoning, but our hypothesis was that they were sharing the same PWM source, and using one function would interrupt the other. 
 
-With this in mind, we quickly switched over to using an Arduino to control the LEDs, connected to the Pi over serial. Sourcing two arduino UNOs from the flight arena in the BRL, I found some well regarded software called W285fx which included a large number of different pre-programmed effects. I then built a simple Serial parser to allow the Pi to send simple commands to the arduino to change the effect of different segments of the pillar. Other problems appeared later on, but that'll be discussed when we get there!
+With this in mind, we quickly switched over to using an Arduino to control the LEDs, connected to the Pi over serial. Sourcing two arduino UNOs from the flight arena in the BRL, I found some well regarded software called WS285fx which included a large number of different pre-programmed effects. I then built a simple Serial parser to allow the Pi to send simple commands to the arduino to change the effect of different segments of the pillar. 
+
+After messing with Arduino UNO, we were finding that it was struggling to light up all 400 or so LEDs that we had allocated for each pillar. It turns out that the UNO only has 2Kb of memory, and that it was likely that it simply did not have enough memory to store the state of each LED. Each LED takes 3 bytes to store its state, so 400 * 3 gives 1200 bytes or 1.2Kbs! If you include the size of the effects library, its highly likely that this was the problem. Therefore we frantically tried to find a compatible microcontroller. Thankfully one of the BRL technicians had some ESP8266s at hand which have 32Mb of RAM which is more than enough. This had its own problems as it does not provide a 5V line, and we had to take it from the Raspberry Pi - causing concerns that it might be drawing down the Pi power supply. Later we replace these ESP8266s with Arduino Mega (clones) with 32Kbs of memory and could provide the 5V lines via external power supply. Although other problems appeared later on, but that'll be discussed when we get there!
 
 {{< gallery album="posts/the_forest_fon_2023/electronics" resize_options="500x500">}}
 
@@ -159,20 +161,65 @@ With only a few days left we finally got down to building it. We began with the 
 
 It mostly went smoothly with only some hiccups. The LEDs were a bit painful to attach as we were plagued with annoying soldering jobs and dodgy connections. Since each slice slides down the extrusion, the LED wires at the top of each pillar have a tendancy of getting caught and breaking. We also had some issues with wiring the RFIDs since we only had a limited number of breakout boards, with the rest manually soldered. With this limitation we were judicious with the placement. Wires in general were a bit of a pain as they were trailing everywhere up and down! We also decided to install a couple of screens for each of the Pis as it would be useful in debugging sonic-pi issues over the connection (I also enabled VNC on the Pis, though the connection was awful over wifi).
 
-That being said, the integration was pretty successful with a full test of the system coming online, and sounds being produced at 3am on the Friday before the weekend of FoN!  
-
+That being said, the integration between the whole team was pretty successful with a full test of the system coming online, and sounds being produced at 3am in the prescence of myself, Tom and Georgios on the Friday before the weekend of FoN!  
 
 {{< gallery album="posts/the_forest_fon_2023/pillar_build" resize_options="500x500" >}}
 
 ## Festival of Nature
 
+The day finally arrives and we have to pack up and prepare for the festival (FoN)! Throughout the build process we have been talking to the organisers about what facilities we have available and what we need! We've been allocated a space inside the University of Bristol tent, but also they have found a space outside the tent in which we can put our exhibit. The thought was that if our exhibit made lots of noise, we probably didn't want to drown out everyone else! The setup would happen on the Friday afternoon with the event itself happening on Sat 10-6, and Sun 10-5! Special thanks to Sergio and Khulud also popped along to help out man the stand over the weekend.  
+
 ### Setup
 
+After our late-nighter building the pillars, we had some last minute adjusments to do on Friday - mainly in converting the LEDs to use the arduino megas and making them do something interesting. There was also ongoing weirdness with sonic-pi and how there seemed to be some sort of race condition, and why I switched from using global lists to using `cue/sync` inside the sonic-pi loop. 
+
+The time came to setup, and so Tom drove down each pillar one at a time. First the nature pillar while I continued to debug, and help Avgi print out posters and materials for the weekend, followed by the urban pillar afterwards. I cycled down to help setup the pillars and stayed to make sure they were working for the next day - finally ran a test with both pillars together! Suet and Georgios got there a little earlier so they started to decorate the nature pillar with some willow as well. 
+
+{{< gallery album="posts/the_forest_fon_2023/fon_setup" resize_options="500x500" >}}
 
 ### Day 1
 
+Cycling down early in the morning, I had a number of things to check and complete before the opening! For a start it had been raining heavily the night before, so I put up the gazebo - had the effect of making a cozyier self contained space which was nice. Next I made sure that both pillars were still turning on and working like expected - and they (for now) were. Did have some issues with sonic-pi crashing every 20 minutes or so which plagued us for the whole day. The LEDs seemed to work okay - but we ran into a weird problem where plugging in the arduino mega would cause the screen to turn off! The LEDs would still function, but unable to properly control them unfortunately. This might have been caused by the external power supply to the arduino feeding power back through the PI USB, tripping up the USB power supply to the monitor. My main job was setting up both sonic-pi and the python script to start automatically so that I did not need to be connected and run things through my laptop. 
+
+Nevertheless at around 10, people started filtering in. We were a little late to start, but after finally getting round to registering objects, we started letting people interact with our piece at around 11! 
+
+{{< gallery album="posts/the_forest_fon_2023/fon_day1" resize_options="500x500" >}}
+
+It was great seeing the range of adults and kids interacting with the piece! The emergence of doodling on the urban pillar was fantastic - really showing the range of activies, and giving it that urban graffiti flavour. Quite a few kids and adults working out how to interact with the pillars themselves and enjoying playing around with the sounds themselves. 
+
+The interaction was well received. Initially there was a bit of confusion through using the language of "tap" or "put" where participants would tap the objects on the RFID readers. This unfortunately had the effect of crashing the system as it gets confused! Quite a number of participants also thought that the detection happened by weight - with quite a few pressing down on the pads thinking that it would react quicker! Another issue was speed of response - some of the samples were either quiet, or took some time to start producing sounds which left participants confused and tapping again and again thinking that it wasnt being read. Using the language of *"gently place"* and *"wait for the sound"* helped to solve some of these issues! In addition placing the table in front worked out quite well at managing people flow, such that we would only have up to 10 people interacting at any one time. 
+
+While all this was happening, I was busy working through the bugs and issues which cropped up during the day. As mentioned, the pillars seemed to crash every 20 to 30 minutes for some unknown reason, requiring a restart often! The inconsistency in breaking time made me suspect a memory issue, or an interaction issue - identifying that the program could get stuck if an object was left on a pad never stopping, or too many samples were loaded and the PI ran out of memory. There were periods of time where only one of the pillars was functional while I tried to debug the other! Towards the end of the day we were getting many `The Thread is behind time` errors in sonic-pi, causing the pillar to not play anything whatsoever. Therefore that night I looked into sonic-pi thread and syncrhonisation problems, while Avgi went in and shortened all of the tracks to 30 seconds long to ensure that they all fit into memory. 
 
 ### Day 2
 
+The second day started hectic again (thanks first bus for not showing up so making me cycle down...) with Avgi and I putting in our hot fixes from the previous night. I made changes to finally include the use of `cue/sync` as well as pre-loading of the samples using `load_samples` which was possibly due to the smaller size of the samples. Our hunch was that the loading time of some of the samples was causing that thread to block for too long, thereby emitting `Thread is behind time` errors. After fixing those errors we re-registered all of the objects (including a few where the RFID stickers themselves had been damanged) so that they made a bit more sense and slowly opened up the stand. 
+
+Unfortunately we also found that the Urban pillar arduino was giving inconsistent voltages to the LEDs causing them to not light up - we gave up on that one for now as the Urban pillar decided to stop working at around 10am. I spent most of the day tearing my hair out trying to work out what was happening - the samples were being recognised, and being sent to Sonic-pi, but sonic-pi simply would not play them for any reason! By about midday, we resigned outselves to leaving that pillar as broken and treating it as a fun whiteboard. I came back to look at it later in the day, and actually found a solution (after almost taking the nuclear option and re-flashing the PI...). Turns out simply changing the name of the samples folder, and all references in the sonic-pi code while removing the `load_samples` fixed the playing. Our hunch is that `load_samples` places the samples in a cache somewhere along with the path names, but something somewhere had caused those path names to go out of date, pointing to locations which no longer contained the cahced files. Therefore when a sample was requested, it would come up blank. Changing the location of the samples would register the paths as new paths and would sucessfully load up the samples. Since the samples are smaller now, they can be dynamically loaded without causing out of sync errors! 
+
+With these changes made, the pillars ended up being much more reliable, lasting the rest of the day without any issues and requiring no more restarts! In terms of interaction, we got loads of people through as well, continually playing with the sounds. It was nice to get a chance to talk to more of the public and see what they thought - lots of interesting questions ranging from "whats the point of all this?" to "what has this got to do with robotics" to "Whats the technology stack you are uing in each pillar". It was great talking to everyone and seeing the vast array of views and thoughts on our installation. 
+
+{{< gallery album="posts/the_forest_fon_2023/fon_day2" resize_options="500x500" >}}
+
+### Debrief and Potential Improvements
+
+During the event we continuously talked to the public and other exhibitors, listening to their views and whether they had any feedback - in addition to providing post-its for participants to leave their thoughts. It felt great to see that a lot of participants understood what we were going for. In no particular order, some feedback included:
+
+1. Have more objects, and decide on their relation to the sounds. If random keep them random, otherwise try and match the sound to the object. 
+2. Complexity - its simple and great for kids, but struggles to hold the attention of adults as its challenging to make anything cohesive, more than just random sounds.
+3. Connectivity  - we have two pillars, but nothing really connected them apart from conceptually.
+4. Narrative was a bit too vague, we needed to be a bit more cohesive and certain (I like Georgios's suggestion of it all being about choices and how individual choices can affect the collective)
+5. Introducing objectives so that participants have something to work towards, instead of simply making things up. 
+6. Introducing more interest through different interaction methods. 
+7. The Forest is rather small isnt it? :D 
 
 ## Conclusion
+
+Tom was saying after, we could measure our success by the number of children that had to be dragged away kicking and screaming by their parents. By that metric, I have to say we did quite well! It was extremely gratifying to see all of the public, interacting, enjoying and playing with the exhibit that we had designed, created and built from scratch. We got some amazing feedback from all involved and loads of potential improvements for the future. 
+There have been loads of suggestions as to where to go next, from music festivals to art exhibitions and things like EMF Camp! 
+
+I've written this article partly for myself to keep track of what we've done, and our thought processes throughout the process, but also partly to demonstrate that making something like this is very possible with a good idea! A few months ago this all started out as an idea, and an ambition to do something different, then 4 months later we have something tangible which the public is interacting with, and learning from. This would not have been possible without all of those who've gotten involved and it's been a really fun experience and I hope we as a team keep developing this idea forward into the future! 
+
+I'll leave this article with some more photos from the weekend - Thanks for reading! 
+
+{{< gallery album="posts/the_forest_fon_2023/ending" resize_options="500x500" >}}
