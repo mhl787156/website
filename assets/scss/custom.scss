@@ -1,0 +1,12 @@
+/*disable parallax for background image on mobile*/
+@media only screen and (max-width:749px) {
+    .parallax {
+      background-attachment: inherit;
+    }
+
+    // This fixes weird overlapping on mobile 
+    // Taken from: https://github.com/wowchemy/wowchemy-hugo-themes/pull/2930/files
+    .gallery-item {
+      overflow: hidden;
+    }
+  }

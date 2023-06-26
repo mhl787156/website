@@ -52,7 +52,7 @@ This is an art piece that provides the opportunity for people of all ages to und
 
 This article goes into some of the designs, challenges and experiences we had throughout the process, sharing photos along the way!
 
-{{< gallery album="posts/the_forest_fon_2023/gen_pics" >}}
+{{< gallery album="posts/the_forest_fon_2023/gen_pics" resize_options="500x500" >}}
 
 
 ## Before The Forest
@@ -63,7 +63,7 @@ Then In 2022 when visiting the ICRA 2022 conference in Japan, I had the opportun
 
 An opportunity to try and develop a concept came with the Computer Science Societies Art Hackathon where I convinced Suet to work with me to build upon the Tonnetz concept into something human scale and bigger! In this concept, the floor of a large dome would be comprised of hexagonal pressure pads, building up the tonnetz structure. The pressure pads represent a choice of note, and the interaction of multiple participants could create chords which would be broadcast through the space. We wanted to include a visual element complementing the sonic element by analysing the emergent notes and chords, and projecting a colour-scape onto the dome above.
 
-{{< gallery album="posts/the_forest_fon_2023/tonnetz" >}}
+{{< gallery album="posts/the_forest_fon_2023/tonnetz" resize_options="500x500" >}}
 
 We bit off a little more than we could chew with this particular project - we only had a weekend afterall! We achieved a brief prototype via website and some of the animation, but it didnt' really pan out. I think in this experience we learnt to perhaps temper our expectations a tad! However despite this setback, I think we both enjoyed the experience and wanted to try again with a better plan in mind.
 
@@ -72,7 +72,7 @@ We bit off a little more than we could chew with this particular project - we on
 
 In early April 2023, after the hackathon, Suet and I approached Tom and somehow easily managed to convince him to join our project - building an audiovisual interactive art exhibit. Starting from the hackathon idea, we quickly started brainstorming alternative approaches which might actually be constructable. Ranging from walls with tonnetz on them, placing pre created "chord" blocks, to random moving hexagon tiles, some sort of growth mechanic and others - each including some element of interaction, sound/music generation and emergence.
 
-{{< gallery album="posts/the_forest_fon_2023/initial_idea_sketches" >}}
+{{< gallery album="posts/the_forest_fon_2023/initial_idea_sketches" resize_options="500x500" >}}
 
 After going round and round a bit, we returned to the dome idea and developed the hexagonal floor into a set of pillars - with users interacting with tall poles instead of simply standing. Each pillar could have its own speakers and interaction mechanisms - buttons, dynamo cranks and the like. The pillars could then interact with some voting system or whatnot (we never got this far but these are ideas to bring forward anyhow!).
 
@@ -131,7 +131,7 @@ We wanted individually controllable addressable LEDs to adorn each pillar, with 
 
 With this in mind, we quickly switched over to using an Arduino to control the LEDs, connected to the Pi over serial. Sourcing two arduino UNOs from the flight arena in the BRL, I found some well regarded software called W285fx which included a large number of different pre-programmed effects. I then built a simple Serial parser to allow the Pi to send simple commands to the arduino to change the effect of different segments of the pillar. Other problems appeared later on, but that'll be discussed when we get there!
 
-{{< gallery album="posts/the_forest_fon_2023/electronics" >}}
+{{< gallery album="posts/the_forest_fon_2023/electronics" resize_options="500x500">}}
 
 ## Three Weeks and Counting... Time to actually build the things! 
 
@@ -141,7 +141,7 @@ Unfortunately as things do, life gets in the way (I went on holiday to Japan for
 
 For the fun of it, we found one evening to do some virtual design on the look of each pillar. We used my Oculus Quest using Google Titlebrush for Suet and Henry to have a play around to see what they could come up with. The right image is a GIF showing both of them. 
 
-{{< gallery album="posts/the_forest_fon_2023/virtual_design" >}}
+{{< gallery album="posts/the_forest_fon_2023/virtual_design" resize_options="500x500" >}}
 
 ### Pillar Design
 
@@ -153,7 +153,10 @@ A challenging design element was the ability to take down the pillars for transp
 
 ### Building and Last Minute Issues
 
-{{< gallery album="posts/the_forest_fon_2023/pillar_build" >}}
+
+
+
+{{< gallery album="posts/the_forest_fon_2023/pillar_build" resize_options="500x500" >}}
 
 
 ## Festival of Nature
