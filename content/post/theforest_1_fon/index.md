@@ -135,7 +135,7 @@ With this in mind, we quickly switched over to using an Arduino to control the L
 
 ## Three Weeks and Counting... Time to actually build the things! 
 
-Unfortunately as things do, life gets in the way (I went on holiday to Japan for example! and ICRA 2023 in London!), and we only get back onto the job with two weeks left before the Festival of Nature. We have a whole bunch of internals, but I'm starting to feel nervous as we still had not settled on an actionable design for the pillar itself. We were still orbiting around the idea of either top/middle/bottom segments, or one long tube and also the look - whether we wanted identical pillars or different ones. 
+Unfortunately as things do, life gets in the way (I went on holiday to Japan for example! and ICRA 2023 in London!), and we only get back onto the job with two weeks left before the Festival of Nature. We have a whole bunch of internals, but I'm starting to feel nervous as we still had not settled on an actionable design for the pillar itself. We were still orbiting around the idea of either top/middle/bottom segments, or one long tube and also the look - whether we wanted identical pillars or different ones. At this point, we also brought Henry onboard to help out in the final stages! 
 
 ### Virtual Design
 
@@ -151,15 +151,28 @@ We really liked the blocky/angular high rise style of the urban contrasted with 
 
 A challenging design element was the ability to take down the pillars for transport and disassembly/assembly. This was a conundrum with the nature pillar as we wanted to use the bamboo as an outer shell. In the end we went with dowel struts between each layer so that we could weave once the pillar was constructed. 
 
+I came up with the overall shape of the nature pillar using sculpting in Blender, and passed that onto Henry to convert into multiple slices. Tom augmented the slicing with 20cm spacing to include space for dowels so that it could be built in sections. Through lots of discussion between myself and Tom, we went with acrylic sheeting for the Urban pillar and a simple repetitive slice which could be continually rotated to change the topologies. Each slice would be connected to the next via vertical slats which could also house the speakers. We chose to go with the slices as it could be more easily lasercut, as opposed to molded, 3D printed or other method. 
+
 ### Building and Last Minute Issues
 
+With only a few days left we finally got down to building it. We began with the urban pillar where I would sort out the electronics while Tom went ahead with designing the slices. In the end for simplicity, we decided to put the LEDs in the extrusion channel as they would be protected and it would be simple to install. The next day we did a long shift where we put together the nature pillar in the flying arena and performed integration testing with everything in place. 
 
+It mostly went smoothly with only some hiccups. The LEDs were a bit painful to attach as we were plagued with annoying soldering jobs and dodgy connections. Since each slice slides down the extrusion, the LED wires at the top of each pillar have a tendancy of getting caught and breaking. We also had some issues with wiring the RFIDs since we only had a limited number of breakout boards, with the rest manually soldered. With this limitation we were judicious with the placement. Wires in general were a bit of a pain as they were trailing everywhere up and down! We also decided to install a couple of screens for each of the Pis as it would be useful in debugging sonic-pi issues over the connection (I also enabled VNC on the Pis, though the connection was awful over wifi).
+
+That being said, the integration was pretty successful with a full test of the system coming online, and sounds being produced at 3am on the Friday before the weekend of FoN!  
 
 
 {{< gallery album="posts/the_forest_fon_2023/pillar_build" resize_options="500x500" >}}
 
-
 ## Festival of Nature
+
+### Setup
+
+
+### Day 1
+
+
+### Day 2
 
 
 ## Conclusion
