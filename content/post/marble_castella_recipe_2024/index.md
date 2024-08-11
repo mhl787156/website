@@ -171,7 +171,11 @@ Turn on the oven to 150c, boil some water.
 
 ![Picture of Ingredients](albums/posts/marble_castella_2024/EggWhiteInBatter.jpg "Folding in first batch of meringue")
 
-3. Add another 70-80g to each batter and repeat folding in the meringue,
+3. Add another 70-80g to each batter and repeat folding in the meringue
+
+![Picture of Ingredients](albums/posts/marble_castella_2024/EggWhiteInBatterPartialMix.jpg "Partially Mixed in next batch of batter. ")
+
+
 4. Split the final amount of meringue between the batters and fold them in.
 
 ![Picture of Ingredients](albums/posts/marble_castella_2024/BatterFinished.jpg "Finished folding in batter and see how volume has doubled!")
@@ -180,7 +184,7 @@ Turn on the oven to 150c, boil some water.
 6. Pour both batters into the pan at the same time while rotating the pan to create a fun pattern internally to the cake. Use a chopstick to gently mix and create patterns in the cake. 
 7. Tap the pan on a surface to get rid of some bubbles.
 
-![Picture of Ingredients](albums/posts/marble_castella_2024/BatterInBakingTray.jpg "Cake mixture in the oven with water bath at 150c, recommend using an oven thermometer!")
+![Picture of Ingredients](albums/posts/marble_castella_2024/BatterInBakingTray.jpg "The mixed batter in the cake pan, get rid of the surface bubbles by tapping, and mix gently with a chopstick.")
 
 ### Baking 
 
@@ -188,7 +192,7 @@ Turn on the oven to 150c, boil some water.
 2. The baking requires a water bath! Grab a tray which is bigger than the cake pan (e.g. roasting tray, or the bottom tray of the oven). Fill the tray with hot water from the kettle.
 3. Put the cake pan into the oven above the water bath (or worst case cover the cake pan in some foil and place it in the water bath)
 
-![Picture of Ingredients](albums/posts/marble_castella_2024/BakingTrayInOven.jpg "Baking Tray in the oven")
+![Picture of Ingredients](albums/posts/marble_castella_2024/BakingTrayInOven.jpg "Cake mixture in the oven with water bath at 150c, recommend using an oven thermometer!")
 
 4. Bake for 40minutes at 150c
 5. Turn down the oven and Bake for 30 minutes at 130c 
