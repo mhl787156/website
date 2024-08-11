@@ -124,10 +124,17 @@ Egg whites can be left in the fridge, but ideally kept at room temperature (arou
 
 6. *Vanilla Batter* Incorporate 4.5 egg yolks one by one into the mixture, whisking them in. Once incoporated, sift in the flour and whisk it in too. Only mix until homogenous, don't overmix! 
 7. *Chocolate Batter* [NOTE THIS IS THE OTHER WAY ROUND] First make sure that the mixture is no higher than 52 degrees! Then sift and whisk in the flour and chocolate in batches. Then incorporate the remaining 4.5 egg yolks into the mixture until it becomes homogenous. If you lift up the whisk, it should form thick ribbons. 
-8. Ideally cover the batters and set to the side, you can keep them on the saucepans (heat off) to keep them warm. 
 
 ![Picture of Ingredients](albums/posts/marble_castella_2024/Batter_Egg_Yolk.jpg 
 "Incorporate those egg yolks")
+
+8. Add vanilla into both the vanilla and chocolate mixtures. (If you want pandan, you can add some gree food colouring at this point too.)
+
+![Picture of Ingredients](albums/posts/marble_castella_2024/Batter_Mixed.jpg 
+"The Mixed Batter")
+
+8. Ideally cover the batters and set to the side, you can keep them on the saucepans (heat off) to keep them warm. 
+
 
 
 ### Whipping Meringue 
@@ -186,11 +193,9 @@ Turn on the oven to 150c, boil some water.
 6. Turn off the oven and open the door a bit, waiting 10 minutes to cool down
 7. Take the cake out and let cool! Then Cut into it! Serve dusted with sugar, ice cream and/or fresh fruits! 
 
-![Picture of Ingredients](albums/posts/marble_castella_2024/pandan_castella.jpg "The castella out of the oven")
+![Picture of Ingredients](albums/posts/marble_castella_2024/pandan_castella.jpg "Pandan Marble Castella out of the oven")
 
-![Picture of Ingredients](albums/posts/marble_castella_2024/Castella.jpg "The castella out of the oven")
-
-![Picture of Ingredients](albums/posts/marble_castella_2024/Cupcakes.jpg "Cupcake version of this recipe! ")
+![Picture of Ingredients](albums/posts/marble_castella_2024/Castella.jpg "The Vanilla Chocolate Marble Castella out of the oven")
 
 8. Make sure you've let it cool on a wire rack! Eat within 3 days and store in a covered box!
 
@@ -205,3 +210,5 @@ Turn on the oven to 150c, boil some water.
   - Temp of oven too high (lots of cracks, air escaping), Type of oven (fan oven vs convection oven), oven hot spots!
 
 Soo... Good luck! 
+
+![Picture of Ingredients](albums/posts/marble_castella_2024/Cupcakes.jpg "Cupcake version of this recipe! ")
