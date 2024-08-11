@@ -65,28 +65,31 @@ Equipment needed
 ### Ingredients 
 
 **Vanilla Batter** 
-62.5g Unsalted Butter
-75g Milk
-4.5 Egg Yolk 
-5g Vanilla Extract
-1g Salt
-72.5g Cake Flour (65g Plain Flour, 7.5g Corn Flour)
+- 62.5g Unsalted Butter
+- 75g Milk
+- 4.5 Egg Yolk 
+- 5g Vanilla Extract
+- 1g Salt
+- 72.5g Cake Flour (65g Plain Flour, 7.5g Corn Flour)
 
 **Chocolate Batter** 
-37.5g Chocolate (Dark works best)
-60g Unsalted Butter
-75g Milk
-67.5g Cake flour (60g Plain Flour, 7.5g Corn Flour)
-7.5g Cocoa Powder
-4.5 Egg Yolks
-5g Vanilla Extract
-1g Salt 
+- 37.5g Chocolate (Dark works best)
+- 60g Unsalted Butter
+- 75g Milk
+- 67.5g Cake flour (60g Plain Flour, 7.5g Corn Flour)
+- 7.5g Cocoa Powder
+- 4.5 Egg Yolks
+- 5g Vanilla Extract
+- 1g Salt 
 
 **Meringue**
-9 Egg Whites 
-140g Fine Caster Sugar
+- 9 Egg Whites 
+- 140g Fine Caster Sugar
 
-{{< image src="posts/marble_castella_2024/Cupcakes.jpg" alt="Picture of ingredients" > }}
+![Picture of Ingredients](posts/marble_castella_2024/Cupcakes.jpg 
+"The image shows ingredients for a pandan replacement to vanilla. Identical except for the use of pandan infused milk!")
+
+
 
 ### Separating Eggs
 
