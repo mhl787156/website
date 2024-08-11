@@ -86,7 +86,7 @@ Equipment needed
 - 9 Egg Whites 
 - 140g Fine Caster Sugar
 
-![Picture of Ingredients](posts/marble_castella_2024/Cupcakes.jpg 
+![Picture of Ingredients](albums/posts/marble_castella_2024/Cupcakes.jpg 
 "The image shows ingredients for a pandan replacement to vanilla. Identical except for the use of pandan infused milk!")
 
 
