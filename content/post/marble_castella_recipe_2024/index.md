@@ -86,7 +86,7 @@ Equipment needed
 - 9 Egg Whites 
 - 140g Fine Caster Sugar
 
-![Picture of Ingredients](albums/posts/marble_castella_2024/Cupcakes.jpg 
+![Picture of Ingredients](albums/posts/marble_castella_2024/Ingredients.jpg 
 "The image shows ingredients for a pandan replacement to vanilla. Identical except for the use of pandan infused milk!")
 
 
@@ -104,11 +104,23 @@ Egg whites can be left in the fridge, but ideally kept at room temperature (arou
 1. Prepare two glass mixing bowls. One will be for one batter, and the other for the other batter. 
 2. In the vanilla bowl, put in the butter and milk, in the chocolate bowl, put in the chocolate, butter and milk
 3. Boil the kettle, and fill two saucepans (that will fit the bowls) with the hot water. Place the filled mixing bowls on top of each of the saucepans. Slowly melt and incorporate it. 
+
+![Picture of Ingredients](albums/posts/marble_castella_2024/Batter_Saucepans.jpg 
+"The image shows ingredients for a pandan replacement to vanilla. Identical except for the use of pandan infused milk!")
+
 4. While they are melting, measure out the cake flour, and the cake flour+cocoa powder. Make sure they are both sifted. Would recommend to measure into a fine mesh sieve. Note also you probably want to have separate whisks for each mixture to avoid the vanilla getting all chocolatey! 
+
+![Picture of Ingredients](albums/posts/marble_castella_2024/Batter_Saucepans_Melting.jpg 
+"The image shows ingredients for a pandan replacement to vanilla. Identical except for the use of pandan infused milk!")
+
 5. Once the batters have been melted and incorporated, take them off the heat and put onto a heatproof matt or teatowel. They should be around 50 degrees. If above, let them cool until around 50 degrees or less. 
 6. *Vanilla Batter* Incorporate 4.5 egg yolks one by one into the mixture, whisking them in. Once incoporated, sift in the flour and whisk it in too. Only mix until homogenous, don't overmix! 
 7. *Chocolate Batter* [NOTE THIS IS THE OTHER WAY ROUND] First make sure that the mixture is no higher than 52 degrees! Then sift and whisk in the flour and chocolate in batches. Then incorporate the remaining 4.5 egg yolks into the mixture until it becomes homogenous. If you lift up the whisk, it should form thick ribbons. 
 8. Ideally cover the batters and set to the side, you can keep them on the saucepans (heat off) to keep them warm. 
+
+![Picture of Ingredients](albums/posts/marble_castella_2024/Batter_Incorporated.jpg 
+"The image shows ingredients for a pandan replacement to vanilla. Identical except for the use of pandan infused milk!")
+
 
 ### Whipping Meringue 
 
