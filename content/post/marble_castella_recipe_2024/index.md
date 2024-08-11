@@ -22,11 +22,11 @@ featured: true
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-#   focal_point: ''
-#   placement: 2
-#   preview_only: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  focal_point: ''
+  placement: 2
+  preview_only: false
 
 authors:
   - Mickey Li 
@@ -47,9 +47,9 @@ categories:
 
 This is one of my go to dessert recipes for larger events as it produces a lovely soft, moist, melt-in-your-mouth cake to impress your guests! Unlike many western style cakes, this cake uses a meringue technique to make a light and fluffy cake that will be gobbled down in no time flat! 
 
-This recipe is heavily based on the following Cooking Tree Videos
--  23cm 대왕! 카스테라 (대만 카스테라) 만들기 : Taiwanese Castella Cake Recipe | Cooking tree [link](https://www.youtube.com/watch?v=MDP65Nbg5l0)
--  초콜릿 코튼 스폰지 케이크 만들기, 초코 대만 카스테라:Chocolate Cotton Sponge Cake(Taiwanese Castella) Recipe |Cooking tree [link](https://www.youtube.com/watch?v=rm_uhO24uGA)
+This recipe is heavily based on the following amazing Cooking Tree Videos (would recommend them! Great recipes!)
+-  [23cm 대왕! 카스테라 (대만 카스테라) 만들기 : Taiwanese Castella Cake Recipe | Cooking tree](https://www.youtube.com/watch?v=MDP65Nbg5l0)
+-  [초콜릿 코튼 스폰지 케이크 만들기, 초코 대만 카스테라:Chocolate Cotton Sponge Cake(Taiwanese Castella) Recipe |Cooking tree](https://www.youtube.com/watch?v=rm_uhO24uGA)
 
 This recipe has some difficulty in terms of the methods, meringue and cooking time, so would recommend trying one of the cooking tree recipes first to see if you can get the hang of it! 
 
@@ -85,6 +85,8 @@ Equipment needed
 **Meringue**
 9 Egg Whites 
 140g Fine Caster Sugar
+
+{{< image src="posts/marble_castella_2024/Cupcakes.jpg" alt="Picture of ingredients" > }}
 
 ### Separating Eggs
 
