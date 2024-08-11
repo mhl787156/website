@@ -29,7 +29,7 @@ featured: true
 #   preview_only: false
 
 authors:
-  - Mickey Li
+  - Mickey Li 
 
 tags:
   - Food
