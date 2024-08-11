@@ -133,7 +133,7 @@ Egg whites can be left in the fridge, but ideally kept at room temperature (arou
 ![Picture of Ingredients](albums/posts/marble_castella_2024/Batter_Mixed.jpg 
 "The Mixed Batter")
 
-8. Ideally cover the batters and set to the side, you can keep them on the saucepans (heat off) to keep them warm. 
+9. Ideally cover the batters and set to the side, you can keep them on the saucepans (heat off) to keep them warm. 
 
 ![Picture of Ingredients](albums/posts/marble_castella_2024/Mickey.jpg 
 "Happy that the batter has been mixed :)  ")
