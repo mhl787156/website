@@ -22,13 +22,24 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Senior Research Fellow in Robotics, AI and LIDAR Software Engineering for Aerospace Applications
+    company: University College London, Dept of Civil, Environ &Geomatic Eng
+    company_url: https://www.ucl.ac.uk/ 
+    location: UCL HereEast, Stratford, London, UK
+    date_start: '2024-01-30'
+    date_end: ''
+    description: |2-
+      Transitioning and developing research photogrammetry and surveying metrology systems for deployment in aerospace manufacturing. This primarily revolves around investigating the viability of ROS2 for industrial use and implementing an infrastructure for large scale sensor networks for multiple different tasks, including equipment tracking and high accuracy multi-vehicle ground and aerial robot inspection and measurment.
+
+      DELTA Project with line managers Prof. Stuart Robston, Prof Jan Boehm and Assistant Prof Vijay Pawar. 
+
   - title: PhD Researcher in Robotics and Autonomous Systems
     company: Bristol Robotics Laboratory, University of Bristol
     company_url: 'https://www.fasrcope.bris.ac.uk/'
     company_logo: uob
     location: Bristol, UK
     date_start: '2018-09-18'
-    date_end: ''
+    date_end: '2023-08-30'
     description: |2-
       My research is focused on investigating the practical use of **multi-drone** and **multi-agent systems**.
       In particular, how the whole system can remain robust and reliable in the prescence of failures.
