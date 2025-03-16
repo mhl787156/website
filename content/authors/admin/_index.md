@@ -1,14 +1,16 @@
 ---
 title: Mickey Li
-role: PhD Researcher in Aerial Robotics and Multi-Robot Systems
+role: Senior Research Fellow in Robotics, AI and LIDAR Software Engineering
 avatar_filename: avatar.jpg
-bio: My research interests include multi-robot systems, autonomous aerial robotics and solving infrastructure challenges for robotics deployments. 
+bio: My research interests include multi-robot systems, autonomous aerial robotics, distributed sensing and solving infrastructure challenges for robotics deployments. 
 interests:
   - UAVs
   - Multi-Robot Systems
   - Optimisation
   - Artificial Intelligence
+  - Distributed Sensing
   - Real World Robotics
+  - Robotics Software Development and Deployment
 social:
   - icon: envelope
     icon_pack: fas

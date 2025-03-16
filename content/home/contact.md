@@ -25,15 +25,15 @@ content:
       captcha: true
 
   # Contact details (edit or remove options as required)
-  email: mickey "dot" li "at" bristol dot ac dot uk
+  email: mickey "dot" li "at" ucl dot ac dot uk
   address:
-    street: Bristol Robotics Laboratory, T Block, Frenchay Campus, University of the West of England, Coldharbour Lane
-    city: Bristol
-    region: Bristol
-    postcode: 'BS34 8QZ'
+    street: UCL at Here East, 8-9 East Bay Lane, Queen Elizabeth Olympic Park
+    city: London
+    region: London
+    postcode: 'E15 2GW'
     country: United Kingdom
     country_code: UK
-  directions: Flight Arena within the Bristol Robotics Laboratory
+  directions: UCL HereEast at HereEast Complex Stratford
 
 design:
   columns: '2'

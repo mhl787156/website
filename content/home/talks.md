@@ -12,6 +12,8 @@ weight: 70
 title: 'Recent & Upcoming Talks'
 subtitle:
 
+draft: true
+
 content:
   # Page type to display. E.g. post, event, publication...
   page_type: event
