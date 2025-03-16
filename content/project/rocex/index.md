@@ -1,42 +1,119 @@
 ---
 title: "RoC-Ex: Robotic Cave Explorer"
-summary: An example of using the in-built project page.
+summary: Unearth the truth about what happened in cave system #0393 
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+  - game
+  - robotics
+  - education
+  - outreach 
+  - godot 
+date: '2025-03-16T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+# external_link: 'https://mickeyli.itch.io/roc-ex-robotic-cave-explorer'
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: RoC-Ex
   focal_point: Smart
 
 links:
-  - icon: twitter
+  - icon: itch
     icon_pack: fab
     name: Follow
-    url: https://twitter.com/georgecushen
-url_code: ''
+    url: https://mickeyli.itch.io/roc-ex-robotic-cave-explorer
+
+url_code: 'https://github.com/FARSCOPE-UKRAS-Festival-Game-Dev/Robot-Explore-Game'
 url_pdf: ''
 url_slides: ''
-url_video: ''
+url_video: 'https://youtu.be/_b-RuhgFj9E'
+
+featured: true
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+# RoC-eX: Robotic Cave Explorer
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+Unearth the truth about what happened in cave system #0393
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+Dive into the experience of piloting a robotic scout through what appears to be an ancient cave system leading down to the centre of the Earth. With the help of advanced sensors, guide your robot explorer along dark tunnels and caverns, avoiding obstacles, collecting relics of aeons past and, hopefully, discover what happened to its predecessor.
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+The game is available to play on itch.io here: 
+- [https://mickeyli.itch.io/roc-ex-robotic-cave-explorer](https://mickeyli.itch.io/roc-ex-robotic-cave-explorer)
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+The source code on github is here:
+- [https://github.com/FARSCOPE-UKRAS-Festival-Game-Dev/Robot-Explore-Game](https://github.com/FARSCOPE-UKRAS-Festival-Game-Dev/Robot-Explore-Game)
+
+## About
+
+In 2021 during those COVID years my PhD CDT cohort thought it would a fun idea to band together to make a game for an outreach project. Over the span of 3 months a team of over 10 of us worked together to deliver this game for the UKRAS 2021 Festival of Robotics aimed at both showcasing and educating the public at the work we do in robotics. 
+
+I lead the endeavour ensuring overall project management to ensure delivery of the game to the festival. I was aided by Julian who lead the technical delivery team and Gaby who lead the art, narrative and game design team. We could not have acheived it without the many others who spent time creating, modelling, developing and testing the various parts of this project. 
+
+The game was launched at the festival to great fanfare where Prof. Jonathan Rossitor and I gave a lecture and game walkthrough about the technologies and sensors we were hoping to teach the participants about. This can be found here: [video](https://youtu.be/_b-RuhgFj9E)
+
+In the end the game ended up being a huge success with over 600 hits during the week and great praise from all involved! 
+
+## Screenshots
+
+<p float="left">
+  <img src="/Assets/Screenshots/Expedition.png" width="400" />
+  <img src="/Assets/Screenshots/MushroomTactile.png" width="400" /> 
+</p>
+<p float="left">
+  <img src="/Assets/Screenshots/StartingCave.png" width="400" />
+  <img src="/Assets/Screenshots/Waterfall.png" width="400" /> 
+</p>
+
+## Credits
+
+### Producers
+* Mickey Li
+* Julian Hird
+* Gabriella Miles
+
+### Game Development
+* Julian Hird
+* Mickey Li
+* Wong Weijie
+* Arturs Elksnis
+* Kirsty Aquilina
+* Peter Wharton
+* Hendrik Eichhorn
+* Zhun Chen Yek
+* Mihai Anca
+
+### Game Design and Art
+* Gabriella Miles
+* Valentina Lo Gatto
+* Alex Smith
+* Vimbai Gore-Strachan
+
+### Story
+* Gabriella Miles
+* Valentina Lo Gatto
+* Alex Smith
+* Julian Hird
+
+### Modellers
+* Gabriella Miles
+* Alex Smith
+* Wong Weijie
+
+### Testing
+* Liam Fletcher
+
+### Thanks to
+* Paul Harper
+* Michael Secker
+* Aneta Taylor
+* Prof Jonathan Rossiter
+* Claire Asher
+* UKRAS Robotics Festival 2021, ESPRC, FARSCOPE, University of Bristol, University of West England, Bristol Robotics Laboratory
+* Made with Godot - godotengine.org/license
