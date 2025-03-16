@@ -63,12 +63,12 @@ In the end the game ended up being a huge success with over 600 hits during the 
 ## Screenshots
 
 <p float="left">
-  <img src="/Assets/Screenshots/Expedition.png" width="400" />
-  <img src="/Assets/Screenshots/MushroomTactile.png" width="400" /> 
+  <img src="Screenshots/Expedition.png" width="400" />
+  <img src="Screenshots/MushroomTactile.png" width="400" /> 
 </p>
 <p float="left">
-  <img src="/Assets/Screenshots/StartingCave.png" width="400" />
-  <img src="/Assets/Screenshots/Waterfall.png" width="400" /> 
+  <img src="Screenshots/StartingCave.png" width="400" />
+  <img src="Screenshots/Waterfall.png" width="400" /> 
 </p>
 
 ## Credits
